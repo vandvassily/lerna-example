@@ -7,20 +7,6 @@
     <router-view />
   </div>
 </template>
-<script>
-import {
-  test,
-  test2,
-  cloWeb,
-  closeWebview,
-} from "@vassily/h5-utils/test-utils";
-
-console.log(test);
-console.log(test2);
-console.log(cloWeb);
-console.log(closeWebview);
-export default {};
-</script>
 
 <style lang="less">
 #app {

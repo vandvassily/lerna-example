@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "paths": {
+      "@vassily/h5-utils": ["./packages/h5-utils"],
+      "@vassily/h5-components": ["./packages/h5-components"],
+    }
+  }
+}

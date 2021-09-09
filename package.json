@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "dev:vue2": "yarn workspace vue-app dev",
+    "dev:vue3": "yarn workspace vue3-app dev"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },

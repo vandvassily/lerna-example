@@ -1,10 +1,11 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import { test, closeWebview } from "@vassily/h5-utils/test-utils";
+import { test } from "@vassily/h5-utils";
+import { log } from "@vassily/h5-utils/log";
 
-test(123);
-console.log(closeWebview);
+test();
+log("this is log from H5-utils");
 
 Vue.config.productionTip = false;
 
